@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03em;
+	font-size:1em;
+	-webkit-font-smoothing: antialiased;
+	margin:0 0;
+}
+.top-navigation{
+	background-color: #fff;
+	position:fixed;
+	width:100%;
+	z-index:999;
+}
+.top-navigation > .content{
+	width: 797px;
+    height: 70px;
+    margin: 0 16em;
+    padding:0 15px;
+}
+#logo{
+	float:left;
+	margin-top:1em;
+}
+.menu{
+	float:right;
+	margin-right:5em;
+	margin-top: 1.5em;
+}
+.menu > li{
+	display: inline-block;
+	color: #838994;
+	margin-left:1em;
+	cursor: pointer;
+}
+.menu > li:active,.menu > li:visited ,.menu > li:hover{
+	color:#333;
+}
+.menu > .active{
+	font-weight: 500;
+	color: #4c5058;
+}
+.introduction{
+	background:url("../img/intro-bg.jpg");
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    overflow:auto;
+}
+.introduction > .content{
+	text-align:center;
+}
+h1{
+	margin-bottom:0;
+	margin-top: 5.5em;
+	color:#fff;
+	font-size: 3.125rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+h3{
+	margin: 0 0;
+	margin-top:0.5em;
+	font-size: 1.563rem;
+	color:#fff;
+	font-weight: lighter;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin-top:1.2em;
+    font-size:1em;
+    width:10em;
+    color: #fff;
+    background-color: #FE642E;
+    cursor: pointer;
+}
+.big-button:hover{
+	background-color: #FF4000;
+}
